@@ -72,7 +72,7 @@
     }
     
     let allButtons = menu.querySelectorAll("li")
-    for (let i = 0; i <= allButtons.length; i++) {
+    for (let i = 0; i < allButtons.length; i++) {
         allButtons[i].addEventListener("click", () => {
             show(i)
         })
