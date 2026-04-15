@@ -20,7 +20,7 @@
     caret-color: transparent;
     color: #fff;
     font-family: "SN Pro", "sans-serif";
-    z-index: 10000000;
+    z-index: 1000000000000000000000000000000000000000000;
 }
 
 /* Navbar */
@@ -163,7 +163,7 @@ nav img {
     display: flex;
     height: 420px;
     flex-direction: column-reverse;
-    z-index: 10000001;
+    z-index: 1000000000000000000000000000000000000000001;
 }
 
 .notification {
