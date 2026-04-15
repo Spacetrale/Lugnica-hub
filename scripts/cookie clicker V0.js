@@ -8,11 +8,11 @@
     menu.innerHTML = `
             <nav>
                 <ul id="navbar">
-                    <li class="active" onclick="show(0)">Cookies</li>
-                    <li onclick="show(0)">Buildings</li>
-                    <li onclick="show(1)">Upgrades</li>
-                    <li onclick="show(2)">Prestige</li>
-                    <li onclick="show(3)">Achievements</li>
+                    <li class="active">Cookies</li>
+                    <li>Buildings</li>
+                    <li>Upgrades</li>
+                    <li>Prestige</li>
+                    <li>Achievements</li>
                 </ul>
                 <div id="move">
                     <img src="https://github.com/Spacetrale/Lugnica-hub/blob/main/assets/move.png?raw=true" draggable="false" style="cursor: move;">
@@ -60,7 +60,7 @@
     })
 
     function show(n) {
-        const allButtons = menu.querySelectorAll("li")
+        allButtons = menu.querySelectorAll("li")
         const allMenus = menu.querySelectorAll(".menu")
 
         for (let i = 0; i < allMenus.length; i++) {
@@ -69,5 +69,12 @@
         }
         allButtons[n].classList.add("active")
         allMenus[n].classList.add("active")
+    }
+    
+    let allButtons = menu.querySelectorAll("li")
+    for (let i = 0; i <= allButtons.length; i++) {
+        allButtons[i].addEventListener("click", () => {
+            show(i)
+        })
     }
 })()
