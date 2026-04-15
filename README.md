@@ -1,5 +1,5 @@
 # Lugnica Hub V0
-### No script actually. sorry.
+🛠️Cookie clicker V0 don't work actually🛠️
 
 ## What is Lugnica hub?
 
