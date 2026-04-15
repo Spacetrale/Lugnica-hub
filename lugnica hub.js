@@ -17,7 +17,7 @@ menu.innerHTML = `
         <div id="menu-container">
             <div class="menu active">
                 <div id="script-container">
-                    <h2>No one actually</h2>
+                    <h2 id="not-found">No one actually</h2>
                 </div>
             </div>
         </div>
