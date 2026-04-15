@@ -1,6 +1,6 @@
 const css = document.createElement("link")
 css.rel = "stylesheet"
-css.href = "https://rawcdn.githack.com/Spacetrale/Lugnica-hub/refs/heads/main/assets/style.css"
+css.href = "https://raw.githack.com/Spacetrale/Lugnica-hub/refs/heads/main/assets/style.css"
 document.head.appendChild(css)
 
 const menu = document.createElement("div")
