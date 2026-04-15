@@ -96,6 +96,7 @@ nav img {
     margin: 5px 2.5% !important;
     border: 2px solid white;
     border-radius: 10px;
+    appearance: textfield;
     outline: none;
     caret-color: white !important;
     font-size: 15px;
