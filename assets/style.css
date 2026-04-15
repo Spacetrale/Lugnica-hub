@@ -10,6 +10,7 @@
     width: 500px;
     border-radius: 10px;
     overflow: hidden;
+    z-index: 1000000000;
     background: #0c0c0c;
 }
 
@@ -20,7 +21,6 @@
     caret-color: transparent;
     color: #fff;
     font-family: "SN Pro", "sans-serif";
-    z-index: 1000000000000000000000000000000000000000000;
 }
 
 /* Navbar */
@@ -163,7 +163,7 @@ nav img {
     display: flex;
     height: 420px;
     flex-direction: column-reverse;
-    z-index: 1000000000000000000000000000000000000000001;
+    z-index: 1000000001;
 }
 
 .notification {
