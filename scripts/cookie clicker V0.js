@@ -60,6 +60,14 @@
     })
 
     function show(n) {
-        return
+        const allButtons = menu.querySelectorAll("li")
+        const allMenus = menu.querySelectorAll(".menu")
+
+        for (let i = 0; i < allMenus.length; i++) {
+            allButtons[i].classList.remove("active")
+            allMenus[i].classList.remove("active")
+        }
+        allButtons[n].classList.add("active")
+        allMenus[n].classList.add("active")
     }
 })()
