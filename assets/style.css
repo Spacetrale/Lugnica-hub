@@ -10,8 +10,8 @@
     width: 500px;
     border-radius: 10px;
     overflow: hidden;
-    z-index: 1000000000;
     background: #0c0c0c;
+    z-index: 1000000000;
 }
 
 #main * {
@@ -21,6 +21,8 @@
     caret-color: transparent;
     color: #fff;
     font-family: "SN Pro", "sans-serif";
+    scrollbar-width: thin;
+    scrollbar-color: #3b3b3b #0c0c0c;
 }
 
 /* Navbar */
@@ -28,17 +30,21 @@
 nav {
     display: flex;
     align-items: center;
-    height: 42px;
+    height: 50px;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
 }
 
 #navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 50px;
     width: 100%;
+    overflow-x: scroll;
 }
 
 #navbar li {
-    float: left;
     margin-left: 10px;
     padding: 4px 15px;
     border: 2px solid white;
@@ -65,18 +71,23 @@ nav img {
 
 #menu-container {
     position: absolute;
-    top: 42px;
-    height: 258px;
+    top: 50px;
+    height: 250px;
     width: 100%;
     overflow-y: scroll;
 }
 
 #menu-container div.menu {
-    min-height: 90%;
+    display: none;
+    min-height: 77%;
     margin: 5% 20px;
     border: 3px solid white;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.05);
+}
+
+#menu-container div.menu.active {
+    display: block;
 }
 
 .entry {
