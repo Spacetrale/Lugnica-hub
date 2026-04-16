@@ -178,11 +178,13 @@ nav img {
     display: flex;
     height: 420px;
     flex-direction: column-reverse;
-    overflow: hidden;
+    overflow-y: hidden;
     z-index: 1000000001;
 }
 
 .notification {
+    position: relative;
+    left: 0;
     display: flex;
     height: 50px;
     width: 300px;
@@ -190,9 +192,21 @@ nav img {
     padding: 15px 0;
     border-radius: 10px;
     color: white;
-    opacity: 0;
     transition: 500ms;
+    animation: newNotification 1s forwards;
     background: #0c0c0c;
+}
+
+@keyframes newNotification {
+    0% {
+        left: -300px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 0;
+        opacity: 1;
+    }
 }
 
 .notification * {
