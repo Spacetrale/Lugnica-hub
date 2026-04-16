@@ -178,6 +178,7 @@ nav img {
     display: flex;
     height: 420px;
     flex-direction: column-reverse;
+    overflow: hidden;
     z-index: 1000000001;
 }
 
