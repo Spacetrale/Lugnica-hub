@@ -20,7 +20,7 @@
     user-select: none;
     caret-color: transparent;
     color: #fff;
-    font-family: "SN Pro", "sans-serif";
+    font-family: "SN Pro", "sans-serif" !important;
     scrollbar-width: thin;
     scrollbar-color: #3b3b3b #0c0c0c;
 }
@@ -221,7 +221,7 @@ nav img {
     height: 50px;
     width: 50px;
     border-radius: 5px;
-    margin: 0 5px;
+    margin: 0 5px !important;
 }
 
 .icon.error {
