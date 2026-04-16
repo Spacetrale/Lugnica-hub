@@ -24,10 +24,6 @@ menu.innerHTML = `
 `
 document.body.appendChild(menu)
 
-const notifications = document.createElement("div")
-notifications.id = "notifications"
-document.body.appendChild(notifications)
-
 // Base Function
 const moveBtn = document.getElementById("move")
 let moveState = false
