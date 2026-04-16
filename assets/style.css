@@ -60,13 +60,14 @@ nav {
 }
 
 nav div {
+    height: 100%;
+    width: 50px;
     float: right;
 }
 
 nav img {
-    height: 42px;
-    width: 80%;
-    padding: 10%;
+    height: 80%;
+    margin: 10% !important;
 }
 
 /* Menu */
