@@ -33,11 +33,11 @@ moveBtn.addEventListener("mousedown", () => {
 })
 document.addEventListener("mousemove", (e) => {
     if (moveState == true) {
-        menu.style.top = `${e.clientY-20}px`
-        menu.style.left = `${e.clientX-menu.clientWidth+20}px`
+        menu.style.top = `${e.clientY-25}px`
+        menu.style.left = `${e.clientX-menu.clientWidth+25}px`
     }
 })
-moveBtn.addEventListener("mouseup", () => {
+document.addEventListener("mouseup", () => {
     moveState = false
 })
 
