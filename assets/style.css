@@ -190,6 +190,8 @@ nav img {
     padding: 15px 0;
     border-radius: 10px;
     color: white;
+    opacity: 0;
+    transition: 500ms;
     background: #0c0c0c;
 }
 
